@@ -100,10 +100,6 @@ export default function App() {
             <div className="arch">
               <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1000&auto=format&fit=crop" alt="Latte art Kopi Senja" />
             </div>
-            <div className="float-card fc1">
-              <span className="fc-icon"><Icon name="check" /></span>
-              <div><strong>100% Arabika</strong><span>Biji pilihan Gayo</span></div>
-            </div>
             <div className="float-card fc2">
               <span className="stars"><Icon name="star" /><Icon name="star" /><Icon name="star" /><Icon name="star" /><Icon name="star" /></span>
               <div><strong>2.400+ ulasan</strong><span>Pelanggan puas</span></div>
