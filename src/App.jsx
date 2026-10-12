@@ -64,7 +64,7 @@ export default function App() {
     <div className="site">
       <nav className="nav">
         <div className="container nav-inner">
-          <a className="logo" href="#"><span className="logo-mark"><Icon name="bean" /></span>Kopi Senja</a>
+          <a className="logo" href="#"><img className="logo-img" src="/logo.png" alt="Logo Kopi Senja" />Kopi Senja</a>
           <div className={`nav-links ${open ? 'show' : ''}`}>
             <a href="#menu" onClick={() => setOpen(false)}>Menu</a>
             <a href="#tentang" onClick={() => setOpen(false)}>Tentang</a>
@@ -193,7 +193,7 @@ export default function App() {
 
       <footer className="footer">
         <div className="container footer-grid">
-          <div><a className="logo" href="#"><span className="logo-mark"><Icon name="bean" /></span>Kopi Senja</a><p>Diseduh dengan cinta di Semarang sejak 2019.</p></div>
+          <div><a className="logo" href="#"><img className="logo-img" src="/logo.png" alt="Logo Kopi Senja" />Kopi Senja</a><p>Diseduh dengan cinta di Semarang sejak 2019.</p></div>
           <div><h4>Jelajah</h4><a href="#menu">Menu</a><a href="#tentang">Tentang</a><a href="#testimoni">Testimoni</a></div>
           <div><h4>Kontak</h4><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">WhatsApp</a></div>
           <div><h4>Jam Buka</h4><p>Senin – Minggu<br />08.00 – 23.00 WIB</p></div>

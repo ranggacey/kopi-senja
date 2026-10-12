@@ -59,11 +59,7 @@ h1 em, h2 em { font-style: italic; color: var(--caramel-d); }
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; font-size: 22px; text-decoration: none; color: var(--espresso); }
-.logo-mark {
-  width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center;
-  background: var(--espresso); color: var(--cream);
-}
-.logo-mark svg { width: 20px; height: 20px; }
+.logo-img { width: 40px; height: 40px; object-fit: contain; }
 .nav-links { display: flex; gap: 34px; }
 .nav-links a { text-decoration: none; color: var(--ink-soft); font-weight: 500; font-size: 15px; transition: color .2s; }
 .nav-links a:hover { color: var(--espresso); }
